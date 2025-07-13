@@ -99,9 +99,7 @@
       CTIPL: ["MR1", "PE", "PB"], CTIRH: ["FAR", "PG", "TOX", "EPAR"],
       AVTEC: ["FAR", "PAR", "TOX", "EINR"], PSAG: ["FAR", "PG", "PAR", "TOX", "NUT"],
       PSAA: ["PG", "PAR", "NUT"], FIS2: ["FIS1", "EBA"],
-      INM: ["AS", "BQD", "HSE", "MB"], PG ["AT", "FIS1", "MB", "GE"],
-      NUT: ["AS", "BQD", "HSE", "MB"], DES["PG", "PAR", "NUT"], 
-      EXT ["PG", "PAR", "NUT"]
+      INM: ["AS", "BQD", "HSE", "MB"], PG ["AT", "FIS1", "MB", "GE"]
     };
 
     const estado = JSON.parse(localStorage.getItem("estadoMaterias") || "{}");

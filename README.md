@@ -113,29 +113,35 @@
       return correlativas[codigo].every(req => estado[req]);
     }
 
-    function crearCheckbox(codigo, nombre) {
-      const div = document.createElement("div");
-      div.className = "materia";
-      const check = document.createElement("input");
-      check.type = "checkbox";
-      check.disabled = !estaHabilitada(codigo);
-      check.checked = !!estado[codigo];
-      check.addEventListener("change", () => {
-        estado[codigo] = check.checked;
-        guardarEstado();
-        location.reload();
-      });
-      if (!check.disabled && check.checked) {
-        div.classList.add("aprobada");
-      } else if (check.disabled) {
-        div.classList.add("bloqueada");
-      }
-      const label = document.createElement("label");
-      label.textContent = `${codigo} - ${nombre}`;
-      div.appendChild(check);
-      div.appendChild(label);
-      return div;
-    }
+   function crearCheckbox(codigo, nombre) {
+  const div = document.createElement("div");
+  div.className = "materia";
+  const check = document.createElement("input");
+  check.type = "checkbox";
+  check.style.display = "none"; // Oculta el checkbox
+
+  const label = document.createElement("label");
+  label.textContent = `${codigo} - ${nombre}`;
+
+  const actualizarEstado = () => {
+    if (!estaHabilitada(codigo)) return;
+    estado[codigo] = !estado[codigo];
+    guardarEstado();
+    location.reload();
+  };
+
+  div.addEventListener("click", actualizarEstado);
+
+  if (!estaHabilitada(codigo)) {
+    div.classList.add("bloqueada");
+  } else if (estado[codigo]) {
+    div.classList.add("aprobada");
+  }
+
+  div.appendChild(check);
+  div.appendChild(label);
+  return div;
+}
 
     function generarMalla() {
       const contenedor = document.getElementById("contenedor");

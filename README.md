@@ -113,7 +113,7 @@
       return correlativas[codigo].every(req => estado[req]);
     }
 
-    function crearCheckbox(codigo, nombre) {
+    function crearCheckbox(nombre) {
       const div = document.createElement("div");
       div.className = "materia";
       const check = document.createElement("input");

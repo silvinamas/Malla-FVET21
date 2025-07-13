@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -18,7 +17,7 @@
       border-left: 5px solid transparent;
     }
     .materia input { margin-right: 10px; }
-    .bloqueada { color: gray; border-left-color: gray; }
+    .bloqueada { color: gray; border-left-color: black; background-color: gray }
     .aprobada { text-decoration: line-through; color: green; border-left-color: green; }
   </style>
 </head>

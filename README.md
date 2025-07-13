@@ -5,7 +5,7 @@
   <style>
     body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 2rem; }
     h1 { text-align: center; }
-    h2 { background-color: blue; color: white; padding: 0.5rem; border-radius: 5px; }
+    h2 { background-color: #8db395; color: white; padding: 0.5rem; border-radius: 5px; }
     h3 { margin-top: 0.5rem; }
     .materia {
       padding: 0.3rem 0.5rem;

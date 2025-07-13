@@ -17,8 +17,8 @@
       border-left: 5px solid transparent;
     }
     .materia input { margin-right: 10px; }
-    .bloqueada { color: black gray; border-left-color: gray; background-color: ligth gray }
-    .aprobada { text-decoration: line-through; color: green; border-left-color: green; }
+    .bloqueada { color: brown; border-left-color: gray; background-color: ligth gray }
+    .aprobada { text-decoration: line-through; color: blue; border-left-color: green; background-color: green }
   </style>
 </head>
 <body>

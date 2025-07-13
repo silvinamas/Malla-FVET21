@@ -98,6 +98,7 @@
       MIAL: ["EPI", "LV"], CTIC: ["MR1", "PE", "EPAR", "EINR", "PB", "POC"],
       CTIPL: ["MR1", "PE", "PB"], CTIRH: ["FAR", "PG", "TOX", "EPAR"],
       AVTEC: ["FAR", "PAR", "TOX", "EINR"], PSAG: ["FAR", "PG", "PAR", "TOX", "NUT"],
+      FIS2: ["FIS1", "EBA"]
       PSAA: ["PG", "PAR", "NUT"],
     };
 

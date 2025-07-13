@@ -1,112 +1,74 @@
-# Malla-FVET21
-# 🐾 Malla Curricular - Veterinaria
+# Continúo armando la lista completa con todas las materias organizadas por semestre y sus abreviaturas + correlativas
 
-## 📅 Primer Año
+# Vamos a preparar todos los semestres con sus materias, abreviaturas y requisitos
+semester_structure = {
+    "Primer Año - Primer Semestre": ["BQD", "AS", "CHG", "BF", "IEV"],
+    "Primer Año - Segundo Semestre": ["ETNO", "HSE", "BQM", "AT", "EBA", "ING1", "THI", "TCOE"],
+    "Segundo Año - Tercer Semestre": ["FIS1", "MB", "GEN", "BIOE1", "EA", "TE", "TCS"],
+    "Segundo Año - Cuarto Semestre": ["FIS2", "INM", "PG", "NUT", "PAR", "DES", "EXT"],
+    "Tercer Año - Quinto Semestre": ["FAR", "PE", "EPAR", "TOX", "EIR", "EPI", "TOP"],
+    "Tercer Año - Sexto Semestre": ["DIIB2", "CSMP1", "EINR", "MPA1", "MEQ1", "MPD2", "TEBC", "PCOE1"],
+    "Cuarto Año - Séptimo Semestre": ["ECO", "LV", "RA", "MPA2", "MEQ2", "MR1", "TESOV", "INTRT"],
+    "Cuarto Año - Octavo Semestre": ["GE", "PB", "POC", "ALI", "MG", "SP", "MR2", "TER", "TEBAP", "PCORM"],
+    "Quinto Año - Noveno Semestre": ["SPUB", "MIAL", "CTIC", "CTIPL", "CTIRH", "AVTEC", "PSAG", "PSAA"],
+    "Quinto Año - Décimo Semestre": ["PRA", "TES"]
+}
 
-### Primer semestre
-| Materia                                  | Estado | Recursos |
-|------------------------------------------|--------|----------|
-| Bioquímica Descriptiva                   | ⭕      |          |
-| Anatomía Sistemática                     | ⭕      |          |
-| Citología e Histología General           | ⭕      |          |
-| Biofísica                                | ⭕      |          |
-| Introducción a los Estudios Veterinarios | ⭕      |          |
+# Estas son las abreviaturas de las materias (inicialmente conocidas)
+abbreviations = {
+    "FIS1": "Fisiología I",
+    "MB": "Microbiología",
+    "GEN": "Genética",
+    "INM": "Inmunología",
+    "PG": "Patología General",
+    "NUT": "Nutrición",
+    "PAR": "Parasitología",
+    "EXT": "Extensión veterinaria",
+    "DES": "Desarrollo Sustentable",
+    "FAR": "Farmacología",
+    "PE": "Patología Especial",
+    "EPAR": "Enfermedades Parasitarias",
+    "TOX": "Toxicología",
+    "EIR": "Enfermedades Infecciosas de Rumiantes",
+    "EPI": "Epidemiología veterinaria",
+    "TOP": "Técnica Operativa",
+    "DIIB2": "Diseño de Investigación y Bioestadística II",
+    "CSMP1": "Clínica Semiológica y Mét. Paraclínicos I",
+    "EINR": "Enf. Infecciosas No Rumiantes",
+    "MPA1": "Medicina de Pequeños Animales I",
+    "MEQ1": "Medicina de Equinos I",
+    "MPD2": "Métodos Paraclínicos de Diagnóstico II",
+    "TEBC": "Taller de Etología y Bienestar en Clínica",
+    "PCOE1": "Práctica Clínica Obligatoria Pequeños y Equinos",
+    "ECO": "Economía",
+    "LV": "Legislación Veterinaria",
+    "RA": "Reproducción Animal",
+    "MPA2": "Medicina de Pequeños Animales II",
+    "MEQ2": "Medicina de Equinos II",
+    "MR1": "Medicina de Rumiantes I",
+    "TESOV": "Taller de Epidemiología y Serv. Oficiales Vet.",
+    "INTRT": "Internado Rumiantes y Teriogenología",
+    "GE": "Gestión de Empresas",
+    "PB": "Producción de Bovinos",
+    "POC": "Producción de Ovinos y Caprinos",
+    "ALI": "Alimentación",
+    "MG": "Mejora Genética",
+    "SP": "Sistemas Productivos",
+    "MR2": "Medicina de Rumiantes II",
+    "TER": "Teriogenología",
+    "TEBAP": "Taller de Etología y Bienestar Animal de Producción",
+    "PCORM": "Práctica Clínica Obligatoria Módulo Rumiantes",
+    "SPUB": "Salud Pública",
+    "MIAL": "Microbiología de los Alimentos",
+    "CTIC": "Ciencia, Tecnología e Inspección de Carne",
+    "CTIPL": "Ciencia, Tec. e Inocuidad Leche y Derivados",
+    "CTIRH": "Ciencia, Tec. e Inocuidad Recursos Hidrobiológicos",
+    "AVTEC": "Avicultura y Tec. de Productos Avícolas",
+    "PSAG": "Producción y Sanidad de Animales de Granja",
+    "PSAA": "Producción y Sanidad de Animales Acuáticos",
+    "PRA": "Practicantado",
+    "TES": "Tesis de Grado",
+}
 
-### Segundo semestre
-| Materia                                     | Estado | Recursos |
-|---------------------------------------------|--------|----------|
-| Etnología                                   | ⭕      |          |
-| Histología Sistemática y Embriología        | ⭕      |          |
-| Bioquímica Metabólica                       | ⭕      |          |
-| Anatomía Topográfica                        | ⭕      |          |
-| Etología y Bienestar Animal                 | ⭕      |          |
-| Inglés I                                    | ⭕      |          |
-| Taller Herramientas Informáticas            | ⭕      |          |
-| Taller Comunicación Oral y Escrita          | ⭕      |          |
-
-## 📅 Segundo Año
-
-### Tercer semestre
-| Materia                  | Estado | Recursos |
-|--------------------------|--------|----------|
-| Fisiología I             | ⭕      |          |
-| Microbiología            | ⭕      |          |
-| Genética                 | ⭕      |          |
-| Bioestadística I         | ⭕      |          |
-| Experimentación Animal   | ⭕      |          |
-| Taller de Ética          | ⭕      |          |
-| Taller de Ciencias Sociales | ⭕   |          |
-
-### Cuarto semestre
-| Materia                  | Estado | Recursos |
-|--------------------------|--------|----------|
-| Fisiología II            | ⭕      |          |
-| Inmunología              | ⭕      |          |
-| Patología General        | ⭕      |          |
-| Nutrición                | ⭕      |          |
-| Parasitología            | ⭕      |          |
-| Extensión Veterinaria    | ⭕      |          |
-| Desarrollo Sustentable   | ⭕      |          |
-
-## 📅 Tercer Año
-
-### Quinto semestre
-| Materia                          | Estado | Recursos |
-|----------------------------------|--------|----------|
-| Farmacología                     | ⭕      |          |
-| Patología Especial               | ⭕      |          |
-| Enfermedades Parasitarias        | ⭕      |          |
-| Toxicología                      | ⭕      |          |
-| Enfermedades Infecciosas Rumiantes | ⭕   |          |
-| Epidemiología Veterinaria        | ⭕      |          |
-| Técnica Operativa                | ⭕      |          |
-
-### Sexto semestre
-| Materia                                               | Estado | Recursos |
-|--------------------------------------------------------|--------|----------|
-| Diseño de Investigación y Bioestadística II           | ⭕      |          |
-| Clínica Semiológica y Métodos Paraclínicos I          | ⭕      |          |
-| Enfermedades Infecciosas no Rumiantes                 | ⭕      |          |
-| Medicina de Pequeños Animales I                       | ⭕      |          |
-| Medicina de Equinos I                                 | ⭕      |          |
-| Métodos Paraclínicos de Diagnóstico II                | ⭕      |          |
-| Taller de Etología y Bienestar en Clínica             | ⭕      |          |
-| Práctica Clínica Obligatoria Pequeños y Equinos       | ⭕      |          |
-
-## 📅 Cuarto Año
-
-### Séptimo semestre
-| Materia                                      | Estado | Recursos |
-|----------------------------------------------|--------|----------|
-| Economía                                     | ⭕      |          |
-| Legislación Veterinaria                      | ⭕      |          |
-| Reproducción Animal                          | ⭕      |          |
-| Medicina de Pequeños Animales II             | ⭕      |          |
-| Medicina de Equinos II                       | ⭕      |          |
-| Medicina de Rumiantes I                      | ⭕      |          |
-| Taller de Epidemiología y Servicios Oficiales| ⭕      |          |
-| Internado Rumiantes y Teriogenología         | ⭕      |          |
-
-### Octavo semestre
-| Materia                                              | Estado | Recursos |
-|-------------------------------------------------------|--------|----------|
-| Gestión de Empresas                                   | ⭕      |          |
-| Producción de Bovinos                                 | ⭕      |          |
-| Producción de Ovinos y Caprinos                       | ⭕      |          |
-| Alimentación                                          | ⭕      |          |
-| Mejora Genética                                       | ⭕      |          |
-| Sistemas Productivos                                  | ⭕      |          |
-| Medicina de Rumiantes II                              | ⭕      |          |
-| Teriogenología                                        | ⭕      |          |
-| Taller de Etología y Bienestar en Producción          | ⭕      |          |
-| Práctica Clínica Obligatoria Módulo Rumiantes         | ⭕      |          |
-
-## 📅 Quinto Año
-
-### Noveno semestre
-| Materia                                                      | Estado | Recursos |
-|----------------------------------------------------------------|--------|----------|
-| Salud Pública                                                  | ⭕      |          |
-| Microbiología de los Alimentos                                 | ⭕      |          |
-| Ciencia, Tecnología e Inspección de Carne
-Agregada malla curricular
+semester_structure_preview = {sem: [f"{abbr} - {abbreviations.get(abbr, '---')}" for abbr in materias] for sem, materias in semester_structure.items()}
+semester_structure_preview

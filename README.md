@@ -156,7 +156,7 @@
           const subtitulo = document.createElement("h3");
           subtitulo.textContent = semestre;
           columna.appendChild(subtitulo);
-          materias.forEach(codigo => {
+          materias.forEach({
             const nombre = nombres[codigo] || "Materia sin nombre";
             columna.appendChild(crearCheckbox(codigo, nombre));
           });

@@ -164,7 +164,7 @@
           columna.appendChild(subtitulo);
           materias.forEach(codigo => {
             const nombre = nombres[codigo] || "Materia sin nombre";
-            columna.appendChild(crearCheckbox(nombre));
+             columna.appendChild(crearCheckbox(codigo, nombre));
           });
           fila.appendChild(columna);
         });
